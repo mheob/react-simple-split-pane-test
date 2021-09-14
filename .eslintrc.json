@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:testing-library/react",
+    "plugin:unicorn/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "unicorn/prevent-abbreviations": [
+      "error",
+      {
+        "replacements": {
+          "args": false,
+          "func": false,
+          "props": false
+        }
+      }
+    ],
+    "react/react-in-jsx-scope": "off"
+  }
+}

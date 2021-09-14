@@ -1,0 +1,10 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.insertFinalNewline": true,
+  "markdown.extension.toc.levels": "2..2",
+  "markdownlint.config": {
+    "default": true,
+    "MD024": false,
+    "MD033": false
+  }
+}

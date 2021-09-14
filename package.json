@@ -1,0 +1,90 @@
+{
+  "name": "react-simple-split-pane",
+  "version": "0.0.0",
+  "description": "Very simple and lightweight split-pane component for React",
+  "keywords": [
+    "react",
+    "react-component",
+    "split-pane",
+    "react-split-pane",
+    "lightweight"
+  ],
+  "homepage": "https://github.com/mheob/react-simple-split-pane#readme",
+  "bugs": {
+    "url": "https://github.com/mheob/react-simple-split-pane/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mheob/react-simple-split-pane.git"
+  },
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "source": "src/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint '*/**/*.{ts,tsx}' --quiet --fix",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/addon-actions": "^6.3.8",
+    "@storybook/addon-docs": "^6.3.8",
+    "@storybook/addon-essentials": "^6.3.8",
+    "@storybook/addon-links": "^6.3.8",
+    "@storybook/builder-webpack5": "^6.3.8",
+    "@storybook/manager-webpack5": "^6.3.8",
+    "@storybook/react": "^6.3.8",
+    "@swc/cli": "^0.1.49",
+    "@swc/core": "^1.2.85",
+    "@types/node": "^16.9.1",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-testing-library": "^4.12.2",
+    "eslint-plugin-unicorn": "^36.0.0",
+    "import-sort": "^6.0.0",
+    "import-sort-parser-typescript": "^6.0.0",
+    "prettier": "^2.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.2.1",
+    "swc-loader": "^0.1.15",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  },
+  "importSort": {
+    ".ts, .tsx": {
+      "parser": "typescript",
+      "style": "module",
+      "options": {}
+    }
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@types/react-transition-group": "^4.4.2",
+    "react-transition-group": "^4.4.2"
+  }
+}
